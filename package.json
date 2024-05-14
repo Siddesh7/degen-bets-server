@@ -1,0 +1,19 @@
+{
+  "name": "degen-bets-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mongoose": "^8.3.4",
+    "node-cron": "^3.0.3",
+    "viem": "^2.10.5"
+  }
+}
