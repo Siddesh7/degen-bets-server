@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 import dotenv from "dotenv";
 import Bet from "./bet.js";
-import {getTokenPrice, tokensForDollar} from "./utils.js";
+import {getTokenPrice, sendPrizeAmount, tokensForDollar} from "./utils.js";
 import cron from "node-cron";
 
 dotenv.config();
